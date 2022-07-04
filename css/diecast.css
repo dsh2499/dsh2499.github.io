@@ -1,0 +1,98 @@
+.scroll-menu {
+  background-color: #c0ab8e; /*Color is Warm Sand*/
+  overflow: auto;
+  white-space: nowrap;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+
+body {
+  background-color: #b4b7ba; /*Color is Harbor Mist*/
+}
+
+.scroll-menu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.scroll-menu a:hover {
+  background-color: #87949e;
+}
+
+.container {
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-style: solid;
+  border-color: #485167; /* Color is Sargasso Sea*/
+}
+
+/* .mySlides1,
+.mySlides2,
+.mySlides3,
+.mySlides4,
+.mySlides5 {
+  text-align: center;
+} */
+
+.container div {
+  text-align: center;
+}
+
+/* .mySlides1 img,
+.mySlides2 img,
+.mySlides3 img,
+.mySlides4 img,
+.mySlides5 img {
+  width: 65%;
+} */
+
+.container div img {
+  width: 65%;
+}
+
+/* .mySlides1 p,
+.mySlides2 p,
+.mySlides3 p,
+.mySlides4 p,
+.mySlides5 p {
+  font-size: 30px;
+} */
+
+.container div p {
+  font-size: 30px;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 12px;
+  top: 40%;
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 15%;
+}
+.prev {
+  left: 15%;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

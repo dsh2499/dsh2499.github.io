@@ -1,0 +1,102 @@
+.navbar {
+  display: flex;
+  position: fixed;
+  background-color: black;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 72px;
+}
+
+.dropdown {
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  flex: 1;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-size: 24px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightsteelblue;
+}
+
+.dropdown-content a {
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  flex: 1;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-size: 17px;
+}
+
+.dropdown:hover {
+  background-color: rgb(36, 36, 36);
+  transition: 0.15s;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  margin-top: 19px;
+}
+
+.dropdown-content a {
+  float: none;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  min-width: 450px;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(36, 36, 36);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.school-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.school-grid img {
+  height: 150px;
+}
+
+h1 {
+  text-align: center;
+  line-height: 140px;
+}
+
+body {
+  background-color: #eeeae0;
+}
+
+p {
+  font-size: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+.personal-links {
+  display: flex;
+  align-items: center;
+}
+
+.personal-links a {
+  flex: 1;
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+}
