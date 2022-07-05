@@ -30,7 +30,9 @@
   flex: 1;
   padding-top: 17px;
   padding-bottom: 17px;
+  padding: 17px 153px;
   font-size: 17px;
+  display: block;
 }
 
 .dropdown:hover {
@@ -43,14 +45,6 @@
   position: absolute;
   background-color: rgb(0, 0, 0);
   margin-top: 19px;
-}
-
-.dropdown-content a {
-  float: none;
-  text-align: center;
-  display: block;
-  text-decoration: none;
-  min-width: 450px;
 }
 
 .dropdown-content a:hover {
@@ -70,6 +64,7 @@
     display: block;
   }
 }
+
 .school-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

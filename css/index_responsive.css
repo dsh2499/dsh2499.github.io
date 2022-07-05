@@ -1,0 +1,25 @@
+@media (max-width: 400px) {
+  h1 {
+    font-size: 20px;
+  }
+  .school-grid img {
+    height: 75px;
+  }
+  figure img {
+    height: 100px;
+    width: auto;
+  }
+  .navbar {
+    width: 57%;
+  }
+  .dropdown {
+    font-size: 100%;
+  }
+  .dropdown-content {
+    padding: 10px;
+  }
+  .dropdown-content a {
+    font-size: 100%;
+    padding: 1px;
+  }
+} ;
