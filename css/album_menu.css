@@ -42,3 +42,7 @@ h1 {
 .active {
   opacity: 1;
 }
+
+footer p {
+  font-size: 22px;
+}

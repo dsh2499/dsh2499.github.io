@@ -77,19 +77,19 @@ body {
   cursor: pointer;
   position: absolute;
   width: auto;
-  padding: 12px;
+  padding: 10px;
   top: 40%;
-  color: black;
+  color: gray;
   font-weight: bold;
   font-size: 50px;
   border-radius: 0 3px 3px 0;
 }
 
 .next {
-  right: 15%;
+  right: 10%;
 }
 .prev {
-  left: 15%;
+  left: 10%;
 }
 
 .prev:hover,
