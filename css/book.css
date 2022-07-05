@@ -35,12 +35,27 @@ body {
   color: lightgray;
 }
 
-@media (max-height: 750px) {
+@media (max-width: 1250px) and (min-width: 860px) {
   .sidebar {
-    padding: 0;
+    width: 20%;
   }
   .sidebar a {
-    font-size: 17px;
-    padding: 9px;
+    font-size: 16px;
+  }
+  h1 {
+    inline-size: 350px;
+    margin-left: 25%;
+  }
+}
+@media (max-width: 859px) {
+  .sidebar {
+    width: 15%;
+  }
+  .sidebar a {
+    font-size: 12px;
+  }
+  h1 {
+    inline-size: 350px;
+    margin-left: 25%;
   }
 }
