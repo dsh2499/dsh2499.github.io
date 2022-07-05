@@ -11,7 +11,6 @@
 .dropdown {
   color: whitesmoke;
   text-align: center;
-  text-decoration: none;
   overflow: hidden;
   flex: 1;
   padding-top: 24px;
@@ -28,32 +27,29 @@
   text-decoration: none;
   overflow: hidden;
   flex: 1;
-  padding-top: 17px;
-  padding-bottom: 17px;
   padding: 17px 153px;
   font-size: 17px;
   display: block;
 }
 
-.dropdown:hover {
+/* .dropdown:hover {
   background-color: rgb(36, 36, 36);
   transition: 0.15s;
-}
+} */
 
 .dropdown-content {
-  display: none;
   position: absolute;
   background-color: rgb(0, 0, 0);
   margin-top: 19px;
 }
 
-.dropdown-content a:hover {
+/* .dropdown-content a:hover {
   background-color: rgb(36, 36, 36);
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
+} */
 
 .school-grid {
   display: grid;
