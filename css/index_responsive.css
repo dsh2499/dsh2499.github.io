@@ -26,15 +26,17 @@
 
 @media (hover: none) {
   .dropdown-content {
-    background-color: rgb(0, 0, 0, 0.4);
     padding: 0;
     margin-top: 55px;
+    background-color: rgb(0, 0, 0, 0.4);
   }
   .dropdown-content a {
-    display: inline-block;
+    display: block;
     border-style: solid;
     border-width: 1px;
     padding: 0;
+    margin: 0;
+    width: auto;
   }
 }
 
