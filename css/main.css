@@ -55,16 +55,6 @@
   display: block;
 }
 
-@media (hover: none) {
-  .dropdown-content a:hover {
-    background-color: rgb(36, 36, 36);
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-}
-
 .school-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

@@ -22,4 +22,16 @@
     font-size: 100%;
     padding: 1px;
   }
-} ;
+}
+
+@media (hover: none) {
+  .dropdown-content {
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 0;
+    margin-top: 28px;
+  }
+  .dropdown-content a {
+    display: inline-block;
+    border-style: solid;
+  }
+}
