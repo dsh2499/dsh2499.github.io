@@ -61,7 +61,7 @@
   display: block;
 }
 
-@media (any-pointer: coarse) {
+@media not all and (any-pointer: coarse) {
   .dropdown-content a:hover {
     background-color: rgb(36, 36, 36);
   }
