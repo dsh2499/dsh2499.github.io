@@ -55,7 +55,9 @@ body {
     font-size: 12px;
   }
   h1 {
-    inline-size: 350px;
+    inline-size: 300px;
     margin-left: 25%;
+    font-size: 25px;
+    margin-bottom: 45px;
   }
 }
