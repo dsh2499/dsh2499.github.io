@@ -1,9 +1,15 @@
 .carousel {
   position: relative;
-  height: 75vh;
-  width: 30vw;
+  height: 550px;
+  width: 30%;
   /* width: 35%; */
   margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+  .carousel {
+    height: 300px;
+  }
 }
 
 .carousel_image {
