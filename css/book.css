@@ -12,7 +12,7 @@ body {
 }
 
 .sidebar {
-  width: 15vw;
+  width: 230px;
   position: fixed;
   z-index: 1;
   top: 20px;
@@ -36,24 +36,24 @@ body {
 }
 
 @media (max-width: 1250px) and (min-width: 860px) {
-  /* .sidebar {
+  .sidebar {
     width: 20%;
   }
   .sidebar a {
     font-size: 16px;
-  } */
+  }
   h1 {
     inline-size: 350px;
     margin-left: 25%;
   }
 }
 @media (max-width: 859px) {
-  /*  .sidebar {
+  .sidebar {
     width: 15%;
   }
   .sidebar a {
     font-size: 12px;
-  } */
+  }
   h1 {
     inline-size: 300px;
     margin-left: 25%;
