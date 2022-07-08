@@ -48,6 +48,20 @@
   }
 }
 
+@media (hover: none) {
+  .dropdown {
+    overflow: auto;
+  }
+  .dropdown-content {
+    opacity: 1;
+    background-color: rgb(0, 0, 0, 0.4);
+  }
+  .dropdown-content a {
+    border-style: solid;
+    border-width: 1px;
+  }
+}
+
 .school-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -95,4 +109,10 @@ figure {
 figure img {
   height: auto;
   width: 20%;
+}
+
+@media (max-width: 541px) {
+  h1 {
+    font-size: 20px;
+  }
 }
