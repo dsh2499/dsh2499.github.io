@@ -18,6 +18,9 @@
 }
 
 @media (hover: none) {
+  .dropdown {
+    overflow: auto;
+  }
   .dropdown-content {
     opacity: 1;
     background-color: rgb(0, 0, 0, 0.4);
