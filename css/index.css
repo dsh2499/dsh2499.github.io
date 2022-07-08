@@ -8,6 +8,15 @@
   height: 4.5rem;
 }
 
+.notice {
+  text-align: center;
+  margin-bottom: 1rem;
+  border-style: solid;
+  border-width: 5px;
+  border-image: linear-gradient(45deg, black, red) 1;
+  display: none;
+}
+
 .dropdown {
   color: whitesmoke;
   text-align: center;
@@ -59,6 +68,9 @@
   .dropdown-content a {
     border-style: solid;
     border-width: 1px;
+  }
+  .notice {
+    display: block;
   }
 }
 
