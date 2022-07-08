@@ -5,51 +5,48 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 72px;
+  height: 4.5rem;
 }
 
 .dropdown {
   color: whitesmoke;
   text-align: center;
-  overflow: hidden;
   flex: 1;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  font-size: 24px;
+  font-size: 1.5rem;
+  padding: 1em 0;
   border-style: solid;
   border-width: 1px;
-  border-color: lightsteelblue;
+  border-color: white;
+}
+
+.dropdown-content {
+  position: relative;
+  background-color: rgb(0, 0, 0, 0.5);
+  margin-top: 1.0625rem;
 }
 
 .dropdown-content a {
-  color: whitesmoke;
+  color: white;
   text-align: center;
   text-decoration: none;
-  overflow: hidden;
-  flex: 1;
-  padding: 17px 153px;
-  font-size: 17px;
+  /* padding: 1em 25.02em; */
+  font-size: 1.2rem;
   display: block;
 }
 
-/* .dropdown:hover {
-  background-color: rgb(36, 36, 36);
-  transition: 0.15s;
-} */
-
-.dropdown-content {
-  position: absolute;
-  background-color: rgb(0, 0, 0);
-  margin-top: 19px;
+@media (hover: hover) {
+  .dropdown-content {
+    opacity: 0;
+  }
+  .dropdown:hover .dropdown-content {
+    opacity: 1;
+    transition: 0.75s;
+  }
+  .dropdown-content a:hover {
+    background-color: rgb(36, 36, 36);
+    transition: 0.5s;
+  }
 }
-
-/* .dropdown-content a:hover {
-  background-color: rgb(36, 36, 36);
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-} */
 
 .school-grid {
   display: grid;
@@ -58,7 +55,8 @@
 }
 
 .school-grid img {
-  height: 150px;
+  width: 35%;
+  height: auto;
 }
 
 h1 {
@@ -71,10 +69,13 @@ body {
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 h2 {
+  text-align: center;
+}
+.emb {
   text-align: center;
 }
 .personal-links {
@@ -89,4 +90,9 @@ h2 {
 
 figure {
   text-align: center;
+}
+
+figure img {
+  height: auto;
+  width: 20%;
 }

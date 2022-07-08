@@ -2,14 +2,14 @@
   h1 {
     font-size: 20px;
   }
-  .school-grid img {
+  /*  .school-grid img {
     height: 75px;
-  }
-  figure img {
+  } */
+  /*   figure img {
     height: 100px;
     width: auto;
-  }
-  .navbar {
+  } */
+  /*  .navbar {
     width: 100%;
   }
   .dropdown {
@@ -21,7 +21,7 @@
   .dropdown-content a {
     font-size: 100%;
     padding: 1px;
-  }
+  } */
 }
 
 @media (hover: none) {
@@ -38,22 +38,5 @@
     padding: 0;
     margin: 0;
     width: auto;
-  }
-}
-
-@media (hover: hover) {
-  .dropdown-content {
-    display: none;
-  }
-  .dropdown-content a:hover {
-    background-color: rgb(36, 36, 36);
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  .dropdown:hover {
-    background-color: rgb(36, 36, 36);
-    transition: 0.15s;
   }
 }
