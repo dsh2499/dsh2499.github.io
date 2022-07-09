@@ -1,4 +1,4 @@
-const slideIndex = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]; // what slide on
+const slideIndex = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]; // what slide on
 const slideId = [
   "mySlides1",
   "mySlides2",
@@ -10,6 +10,7 @@ const slideId = [
   "mySlides8",
   "mySlides9",
   "mySlides10",
+  "mySlides11",
 ];
 
 for (let i = 0; i < slideIndex.length; i++) {
