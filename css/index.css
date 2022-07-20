@@ -8,7 +8,7 @@
   height: 4.5rem;
 }
 
-.notice {
+.not {
   display: none;
 }
 
@@ -64,12 +64,13 @@
     border-style: solid;
     border-width: 1px;
   }
-  .notice {
+  .not {
     text-align: center;
     margin-bottom: 1rem;
     border-style: solid;
     border-width: 3px;
     border-image: linear-gradient(45deg, black, red) 1;
+    display: block;
   }
   h1 {
     margin-bottom: 0;
