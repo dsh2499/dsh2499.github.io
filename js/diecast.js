@@ -35,6 +35,9 @@ const slideIndex = [
   1,
   1,
   1,
+  1,
+  1,
+  1,
 ]; // what slide on
 const slideId = [
   "mySlides1",
@@ -73,6 +76,9 @@ const slideId = [
   "mySlides34",
   "mySlides35",
   "mySlides36",
+  "mySlides37",
+  "mySlides38",
+  "mySlides39",
 ];
 
 for (let i = 0; i < slideIndex.length; i++) {
